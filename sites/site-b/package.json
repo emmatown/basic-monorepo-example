@@ -1,0 +1,13 @@
+{
+  "name": "@example/site-b",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@example/heading": "^1.0.0",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
